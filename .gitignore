@@ -37,3 +37,6 @@ buildNumber.properties
 
 #idea
 .idea
+*.iws
+*.iml
+*.ipr
