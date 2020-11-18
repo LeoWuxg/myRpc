@@ -40,3 +40,6 @@ buildNumber.properties
 *.iws
 *.iml
 *.ipr
+
+#mvn
+.mvn
