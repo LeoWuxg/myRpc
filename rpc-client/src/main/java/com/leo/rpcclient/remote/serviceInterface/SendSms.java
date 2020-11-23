@@ -1,6 +1,6 @@
-package com.leo.rpcserversms.remote.serviceInterface;
+package com.leo.rpcclient.remote.serviceInterface;
 
-import com.leo.rpcserversms.remote.vo.UserInfo;
+import com.leo.rpcclient.remote.vo.UserInfo;
 
 /**
  * @ClassName: SendSms
@@ -9,5 +9,5 @@ import com.leo.rpcserversms.remote.vo.UserInfo;
  * @Date: 2020/11/21
  */
 public interface SendSms {
-    boolean sendMail(UserInfo user);
+    boolean sendPhoneMsg(UserInfo user);
 }

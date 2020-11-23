@@ -12,5 +12,6 @@
 
     <modules>
         <module>rpc-server-sms</module>
+        <module>rpc-client</module>
     </modules>
 </project>
