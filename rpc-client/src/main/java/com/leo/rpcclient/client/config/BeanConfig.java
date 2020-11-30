@@ -1,7 +1,7 @@
 package com.leo.rpcclient.client.config;
 
 import com.leo.rpcclient.client.rpc.RpcClientFrame;
-import com.leo.rpcclient.remote.serviceInterface.SendSms;
+import com.leo.rpcremote.serviceInterface.SendSms;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

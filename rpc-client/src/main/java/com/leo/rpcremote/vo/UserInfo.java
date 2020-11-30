@@ -1,4 +1,4 @@
-package com.leo.rpcclient.remote.vo;
+package com.leo.rpcremote.vo;
 
 import java.io.Serializable;
 

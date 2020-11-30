@@ -1,6 +1,6 @@
-package com.leo.rpcserversms.remote.serviceInterface;
+package com.leo.rpcremote.serviceInterface;
 
-import com.leo.rpcserversms.remote.vo.UserInfo;
+import com.leo.rpcremote.vo.UserInfo;
 
 /**
  * @ClassName: SendSms

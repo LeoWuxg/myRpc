@@ -1,8 +1,8 @@
 package com.leo.rpcclient;
 
 import com.leo.rpcclient.client.service.ClientBusinessService;
-import com.leo.rpcclient.remote.serviceInterface.SendSms;
-import com.leo.rpcclient.remote.vo.UserInfo;
+import com.leo.rpcremote.serviceInterface.SendSms;
+import com.leo.rpcremote.vo.UserInfo;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

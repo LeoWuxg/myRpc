@@ -33,7 +33,7 @@ public class RpcClientFrame {
         InetSocketAddress address = new InetSocketAddress(host, port);
 
         //获取一个代理对象，由这个代理对象通过网络进行实际的服务调用
-        return (T) Proxy.newProxyInstance(serviceInterface.getClassLoader(),
+        return (T)Proxy.newProxyInstance(serviceInterface.getClassLoader(),
                 new Class<?>[] {serviceInterface}, new DynProxy(serviceInterface, address));
     }
 
@@ -78,6 +78,7 @@ public class RpcClientFrame {
 
             } catch (Exception e) {
                 //异常业务处理
+                e.printStackTrace();
             } finally {
                 //关闭资源
                 if (socket != null)

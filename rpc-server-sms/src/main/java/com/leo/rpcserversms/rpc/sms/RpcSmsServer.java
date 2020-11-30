@@ -1,6 +1,6 @@
 package com.leo.rpcserversms.rpc.sms;
 
-import com.leo.rpcserversms.remote.serviceInterface.SendSms;
+import com.leo.rpcremote.serviceInterface.SendSms;
 import com.leo.rpcserversms.rpc.base.RpcServerFrame;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

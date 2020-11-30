@@ -94,6 +94,7 @@ public class RpcServerFrame {
 
             } catch (Exception e) {
                 //异常业务处理...
+                e.printStackTrace();
             } finally {
                 try {
                     socket.close();
